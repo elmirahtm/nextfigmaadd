@@ -1,0 +1,63 @@
+.basliq h2{
+    transform: translateY(-70px);
+    text-align: center;
+}
+.basliq{
+ 
+
+    text-align: center;
+    position: relative;
+}
+.basliq::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    top: 50px;
+    transform: translate(-50%);
+    background-color: green;
+    margin: -68px 0;
+}
+.p{
+    text-align: center;
+    margin: -40px auto;
+    width: 100ch;
+    padding: 10px;
+}
+.daire2,.daire3{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid gray ;
+  
+}
+
+.daire{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(70px);
+}
+.teg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50px);
+}
+ .tap h4, .tap p{
+    transform: translateY(130px);
+    text-align: center;
+}
+.tap p{
+    width: 40ch;
+    margin: 0 -90px;
+    color: gray;
+   
+}
+.map{
+    transform: translateY(300px);
+text-align: center;
+
+}
+.ox{
+    transform: translateY(295px);
+}

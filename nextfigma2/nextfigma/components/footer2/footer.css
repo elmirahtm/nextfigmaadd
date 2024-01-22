@@ -1,0 +1,18 @@
+.son{
+    transform: translateY(290px);
+    width: 1280px;
+background-image: url("/kvadrat.png");
+    /* background-color: #333; */
+    /* clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 0 100%); */
+border-radius: 20px;
+padding: 90px;
+}
+.texts{
+    
+    display: flex;
+    justify-content: space-around;
+    color: rgb(193, 188, 188);
+}
+.text3 h5{
+width: 40ch;
+}
